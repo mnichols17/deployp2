@@ -1,0 +1,49 @@
+.container-fluid {
+    width: 100%;
+}
+
+.navLink {
+    margin: 2%;
+    font-size: 150%;
+    color: black;
+}
+
+.navLink:hover {
+    color: lightcoral;
+}
+
+#addTask {
+    width: 50%;
+}
+
+#taskBoard {
+    border: black 2px solid;
+    width: 80%;
+}
+
+#col1, #col3 {
+    background: #EFEFEF
+}
+
+#col0, #col2 {
+    background: #DEDEDE
+}
+
+a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .card {
+      width: 70%;
+    }
+
+    #taskBoard {
+        background: #EFEFEF;
+    }
+
+    #addTask {
+        width: 100%;
+    }
+  }
